@@ -8,6 +8,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
+import android.accounts.Account;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -96,5 +97,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void settings(MenuItem item) {
         startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
+    }
+
+    public void account_beheren(MenuItem item) {
+        startActivity(new Intent(getApplicationContext(), AccountBeheren.class));
+
     }
 }

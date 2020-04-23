@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountBeheren"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorDrip"
+        android:elevation="4dp"
+        android:textAlignment="center"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:title="Account beheren"
+        app:titleTextColor="#FFFFFF" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:paddingTop="50dp"
+        android:textSize="15dp"
+        android:text="Naam:"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:textAppearance="@font/nexa"
+        android:paddingTop="50dp"
+        android:textSize="15dp"
+        android:text="Stijn Verhagen"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:paddingTop="50dp"
+        android:text="Email:"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:textAppearance="@font/nexa"
+        android:paddingTop="50dp"
+        android:textSize="15dp"
+        android:text="Stijnverhagen@xs4all.nl"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:paddingTop="50dp"
+        android:text="Adres:"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+        android:textAppearance="@font/nexa"
+        android:paddingTop="50dp"
+        android:textSize="15dp"
+        android:text="Eugeniasingel 45 Venlo 5913GK"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bEmailWijzigen"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDrip"
+        android:textColor="@android:color/white"
+        android:text="Gegevens wijzigen"
+        android:textColorHighlight="@color/colorDripDark"
+        android:textColorLink="@color/colorDrip"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingTop="50dp"
+        android:text="Je bent op dit moment ingeschreven in het huis: 'Verhagen'"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
