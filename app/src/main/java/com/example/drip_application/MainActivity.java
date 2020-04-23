@@ -93,4 +93,8 @@ public class MainActivity extends AppCompatActivity {
     public void over_ons(MenuItem item) {
         startActivity(new Intent(getApplicationContext(), OverOnsActivity.class));
     }
+
+    public void settings(MenuItem item) {
+        startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
+    }
 }

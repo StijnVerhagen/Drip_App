@@ -38,8 +38,12 @@
                 android:layout_height="?attr/actionBarSize"
                 android:background="@color/colorDrip"
                 android:elevation="4dp"
+                android:textAlignment="center"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:title="Drip"
+                app:titleTextColor="#FFFFFF" />
 
             <FrameLayout
                 android:id="@+id/fragment_containerleft"
