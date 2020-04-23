@@ -26,7 +26,7 @@ public class DashboardFragment extends Fragment implements View.OnClickListener 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View dashboardView = inflater.inflate(R.layout.fragment_dashboard, container, false);
-        final Button subscribeButton = (Button)dashboardView.findViewById(R.id.butSubcribe);
+        final Button subscribeButton = (Button)dashboardView.findViewById(R.id.buttonSub);
         Log.i("DASHBOARDFRAG", "Yayyyy");
         subscribeButton.setOnClickListener(this);
         return dashboardView;
