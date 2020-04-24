@@ -20,13 +20,13 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 
 public class DashboardFragment extends Fragment implements View.OnClickListener {
 
-
+    Button subscribeButton;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View dashboardView = inflater.inflate(R.layout.fragment_dashboard, container, false);
-        final Button subscribeButton = (Button)dashboardView.findViewById(R.id.buttonSub);
+        subscribeButton = (Button)dashboardView.findViewById(R.id.buttonSub);
         Log.i("DASHBOARDFRAG", "Yayyyy");
         subscribeButton.setOnClickListener(this);
         return dashboardView;
