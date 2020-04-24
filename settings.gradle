@@ -1,0 +1,2 @@
+rootProject.name='Drip2_0'
+include ':app'
