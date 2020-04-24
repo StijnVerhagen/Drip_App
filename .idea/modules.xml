@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Drip_Application.iml" filepath="$PROJECT_DIR$/Drip_Application.iml" group="Drip_Application" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Drip_Application/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Drip_App.iml" filepath="$PROJECT_DIR$/.idea/modules/Drip_App.iml" group="Drip_App" />
     </modules>
   </component>
 </project>
