@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorDrip"
+        android:elevation="4dp"
+        android:textAlignment="center"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:title="Settings"
+        app:titleTextColor="#FFFFFF"
+        android:gravity="center_horizontal" />
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/notificaties"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:padding="25dp"
+        android:text="Notificaties"
+        android:textColorHighlight="@color/colorDripDark"
+        android:textColorLink="@color/colorDrip"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Taal Wijzigen"
+        android:id="@+id/taalwijzigen"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Apparaat Toevoegen"
+        android:id="@+id/apparaattoevoegen"
+        android:layout_height="50dp"/>
+
+
+
+
+
+</LinearLayout>
