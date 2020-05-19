@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     tools:context=".SettingsActivity"
     android:orientation="vertical">
 
@@ -32,14 +33,14 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:text="Taal Wijzigen"
         android:id="@+id/taalwijzigen"
-        android:layout_height="50dp"/>
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Taal Wijzigen" />
 
     <Button
-        android:layout_width="match_parent"
         android:text="Apparaat Toevoegen"
+        android:layout_width="350dp"
         android:id="@+id/apparaattoevoegen"
         android:layout_height="50dp"/>
 
