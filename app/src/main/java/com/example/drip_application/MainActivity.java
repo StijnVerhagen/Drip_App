@@ -11,7 +11,9 @@ import androidx.fragment.app.Fragment;
 import android.accounts.Account;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -101,6 +103,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void account_beheren(MenuItem item) {
         startActivity(new Intent(getApplicationContext(), AccountBeheren.class));
+
+    }
+
+    public void buttonDashboard(View view) {
+        Log.i("Tag", "Deze knop werkt");
 
     }
 }

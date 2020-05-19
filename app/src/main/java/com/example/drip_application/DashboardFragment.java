@@ -1,6 +1,7 @@
 package com.example.drip_application;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,4 +16,10 @@ import androidx.fragment.app.Fragment;
         public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
             return inflater.inflate(R.layout.fragment_dashboard, container, false);
         }
+
+        public void buttonDashboard(View view) {
+            Log.i("Tag", "Deze knop werkt ook");
+
+        }
+
     }
