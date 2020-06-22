@@ -1,3 +1,5 @@
+###### Readme Stijn Verhagen
+
 # Drip_App
 
 Gemaakt als prototype voor onze Media Design studie en om onze Development leeruitkomst aan te tonen.
@@ -26,3 +28,14 @@ Na het opzetten van de basisstructuur zijn we aan de slag gegaan met het verbind
 Na dat de login functie werkend was hebben we geprobeerd om alsnog een dashboard in te richten binnen de fragments. Weer zonder succes helaas.
 
 Kort beschreven, dit is een applicatie met de mogelijkheid om in te loggen en te registreren a.d.h.v. een database. Verder is het niet gelukt om de hoofdfunctie te realiseren, wat wij zelf heel erg jammer vinden.
+
+
+
+###### ReadMe Sjoerd van Gerwen
+
+# Drip Applicatie Android Studio
+Wat begon als een interresse om een simpele prototype te maken, werd uiteindelijk een functionele app. Ik heb veel geleerd van alle mogelijkheden binnen Android Studio, namelijk het coderen en de eindeloze mogelijkheden met styling. Het uiteindelijke doel om de connectie te realiseren is misschien niet volledig gelukt maar het leerproces eromheen is belangrijker. Gelukkig is er nog een client ontwikkeld die wel de data verstrekt van de sensor. 
+
+Het maken van de fragments was de eerste grote opdracht binnen android studio. Dit gaf ons de mogelijkheid om te wisselen van menu, helaas was dit ook de veroorzaker dat wij onze knop niet konden indrukken, waardoor hij dus eigenlijk de data zou opvragen. Hierdoor werd dit niet mogelijk. 
+
+We hebben veel in calls gezeten met meerdere leraren, maar ook zij konden ons niet helpen met dit probleem. Zeker omdat contact moeilijker is tijdens corona. Toch ben ik tevreden wat we hebben opgeleverd. Ook het samen werken met Git was een probleem op het begin, maar door de goede samenwerking en contact met Stijn hadden we Github al snel onder de knie
