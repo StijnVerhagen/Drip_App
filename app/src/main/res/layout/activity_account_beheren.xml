@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     tools:context=".AccountBeheren"
     android:orientation="vertical">
 
@@ -68,18 +69,18 @@
         android:text="Eugeniasingel 45 Venlo 5913GK"
         android:layout_height="wrap_content" />
 
+
     <Button
         android:id="@+id/bEmailWijzigen"
-        android:padding="10dp"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:background="@color/colorDrip"
-        android:textColor="@android:color/white"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
         android:text="Gegevens wijzigen"
+        android:textColor="@android:color/white"
         android:textColorHighlight="@color/colorDripDark"
-        android:textColorLink="@color/colorDrip"
-        />
-
+        android:textColorLink="@color/colorDrip" />
 
     <TextView
         android:layout_width="match_parent"

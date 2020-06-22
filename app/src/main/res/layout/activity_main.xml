@@ -45,7 +45,6 @@
                 app:title="Drip"
                 app:titleTextColor="#FFFFFF" />
 
-
             <FrameLayout
                 android:id="@+id/fragment_containerleft"
                 android:layout_width="match_parent"
