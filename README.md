@@ -1,20 +1,3 @@
-###### Readme Stijn Verhagen
-
-# Drip_App
-
-Gemaakt als prototype voor onze Media Design studie en om onze Development leeruitkomst aan te tonen.
-Versie beheer is helaas later gestart door problemen met het verbinden met Git.
-
-We hebben een applicatie ontwikkeld die het mogelijk maakt om het waterverbruik van je douche in te zien.
-Helaas is het door tijdsnood niet gelukt om de koppeling echt te maken maar de twee losse elementen werken wel.
-
-Sjoerd heeft gewerkt aan de sensor die tussen de douchekop en kraan geplaatst word. Deze stuurt realtime data door naar een MQTT Broker.
-Er is een dashboard ontworpen die in de fragments geplaatst zou kunnen worden.
-
-Aan de app kant is alles ingedeeld en werkend. Je kan registreren en inloggen door middel van een Firebase database. Deze was makkelijk te integreren.
-Ook is het mogelijk om de app te delen met je vrienden.
-
-Zelf balen we er heel erg van dat we de connectie niet hebben kunnen maken. Als we meer tijd over hadden, hadden we deze functie nog wel toe kunnen voegen.
 
 # Proces
 We zijn begonnen met het uitdenken hoe de structuur van de app er uit moet komen te zien.
@@ -29,6 +12,24 @@ Na dat de login functie werkend was hebben we geprobeerd om alsnog een dashboard
 
 Kort beschreven, dit is een applicatie met de mogelijkheid om in te loggen en te registreren a.d.h.v. een database. Verder is het niet gelukt om de hoofdfunctie te realiseren, wat wij zelf heel erg jammer vinden.
 
+
+###### Readme Stijn Verhagen
+
+# Drip Applicatie Android Studio - Stijn Verhagen
+
+Gemaakt als prototype voor onze Media Design studie en om onze Development leeruitkomst aan te tonen.
+Versie beheer is helaas later gestart door problemen met het verbinden met Git.
+
+We hebben een applicatie ontwikkeld die het mogelijk maakt om het waterverbruik van je douche in te zien.
+Helaas is het door tijdsnood niet gelukt om de koppeling echt te maken maar de twee losse elementen werken wel.
+
+Sjoerd heeft gewerkt aan de sensor die tussen de douchekop en kraan geplaatst word. Deze stuurt realtime data door naar een MQTT Broker.
+Er is een dashboard ontworpen die in de fragments geplaatst zou kunnen worden.
+
+Aan de app kant is alles ingedeeld en werkend. Je kan registreren en inloggen door middel van een Firebase database. Deze was makkelijk te integreren.
+Ook is het mogelijk om de app te delen met je vrienden.
+
+Zelf balen we er heel erg van dat we de connectie niet hebben kunnen maken. Als we meer tijd over hadden, hadden we deze functie nog wel toe kunnen voegen.
 
 
 ###### ReadMe Sjoerd van Gerwen
